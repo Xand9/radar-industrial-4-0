@@ -1,0 +1,6 @@
+trend,slope_per_day,estimated_period_change,unit,direction
+Produção diária,-3.175369458127947,-0.008466956735899821,unidades/dia,queda
+Taxa diária de rejeição,-5.336728576918659e-05,-0.03132667944480728,proporção/dia,queda
+Faturamento diário,3668.6090403225594,0.1789622792379476,BRL/dia,crescimento
+Temperatura média diária,0.026597209463340998,0.011686310495507937,°C/dia,crescimento
+Maior velocidade de desgaste,1.2920924539247955,,p.p./dia,crescimento

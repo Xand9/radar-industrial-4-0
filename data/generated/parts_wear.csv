@@ -1,0 +1,13 @@
+component_id,machine_id,component_code,component_name,wear_pct,warning_threshold_pct,critical_threshold_pct,estimated_remaining_hours,last_inspection_at
+1,c4f9f0e7-fdc5-519b-9aa5-38dad0b62801,ROLAMENTO,Rolamento principal,70.06,75.0,90.0,595.96,2026-11-12 18:00:00+00:00
+2,37d80f76-c39b-5866-898d-300e223fb2e8,CORREIA,Correia de transmissão,55.13,75.0,90.0,966.06,2026-11-12 18:00:00+00:00
+3,37d80f76-c39b-5866-898d-300e223fb2e8,MOTOR,Motor elétrico,65.2,75.0,90.0,844.31,2026-11-12 18:00:00+00:00
+4,37d80f76-c39b-5866-898d-300e223fb2e8,ROLAMENTO,Rolamento principal,71.95,75.0,90.0,514.36,2026-11-12 18:00:00+00:00
+5,2f0b9345-95f7-55d3-9e11-0ca1b28b898c,CORREIA,Correia de transmissão,72.72,75.0,90.0,752.54,2026-11-12 18:00:00+00:00
+6,2b6b1597-d060-530b-a6e1-17c93f5f3497,CORREIA,Correia de transmissão,73.81,75.0,90.0,600.49,2026-11-12 18:00:00+00:00
+7,2f0b9345-95f7-55d3-9e11-0ca1b28b898c,ROLAMENTO,Rolamento principal,99.5,75.0,90.0,12.03,2026-11-12 18:00:00+00:00
+8,2b6b1597-d060-530b-a6e1-17c93f5f3497,MOTOR,Motor elétrico,53.19,75.0,90.0,897.39,2026-11-12 18:00:00+00:00
+9,2b6b1597-d060-530b-a6e1-17c93f5f3497,ROLAMENTO,Rolamento principal,62.37,75.0,90.0,990.65,2026-11-12 18:00:00+00:00
+10,c4f9f0e7-fdc5-519b-9aa5-38dad0b62801,MOTOR,Motor elétrico,59.53,75.0,90.0,958.48,2026-11-12 18:00:00+00:00
+11,2f0b9345-95f7-55d3-9e11-0ca1b28b898c,MOTOR,Motor elétrico,48.32,75.0,90.0,1234.3,2026-11-12 18:00:00+00:00
+12,c4f9f0e7-fdc5-519b-9aa5-38dad0b62801,CORREIA,Correia de transmissão,66.39,75.0,90.0,717.22,2026-11-12 18:00:00+00:00

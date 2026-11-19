@@ -1,0 +1,11 @@
+indicator,value,unit
+Produção total,315374.0,unidades
+Produção aprovada,300331.0,unidades
+Taxa de rejeição,0.047698922549100436,proporção
+Custo estimado do refugo,1115783.11,BRL
+Pedidos válidos,2324.0,pedidos
+Faturamento,19064388.439999998,BRL
+Ticket médio,8203.265249569706,BRL/pedido
+Leituras de telemetria,34564.0,leituras
+Leituras em alerta,349.0,leituras
+Componentes em atenção/críticos,1.0,componentes

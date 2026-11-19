@@ -1,0 +1,80 @@
+RADAR INDUSTRIAL 4.0 - COMO TESTAR E APRESENTAR
+
+INTEGRANTES
+- Beatriz Andrade Barbosa de Sousa
+- Pedro Henrique de Souza Pereira
+- Alexandre de Marcus Paiva Barcelos
+
+1. PREPARAR O PROJETO
+
+Extraia o arquivo Radar_Industrial_4_0_Entrega_Final_Com_Nomes.zip.
+Abra o PowerShell dentro da pasta Radar_Industrial_4_0 extraída.
+
+Execute uma linha por vez:
+
+py -3.12 -m venv .venv
+Set-ExecutionPolicy -Scope Process Bypass
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+
+2. TESTAR O DASHBOARD LOCAL
+
+python -m streamlit run app.py
+
+O navegador deverá abrir em http://localhost:8501.
+Na barra lateral, mantenha Fonte de dados = Base local (CSV).
+
+Confira estas páginas:
+- Visão executiva
+- Produção
+- Vendas
+- Produção x Vendas
+- Máquinas
+- Manutenção
+- Financeiro
+- Qualidade dos dados
+- Previsão de desgaste
+- Decisões e qualidade
+
+Para encerrar, volte ao PowerShell e pressione Ctrl+C.
+
+3. TESTAR A REPRODUÇÃO COMPLETA
+
+python gerar_base.py --dias 30 --maquinas 4 --seed 42 --sobrescrever
+python validar_qualidade.py
+python analisar_dados.py
+python prever_desgaste.py
+
+Resultado esperado:
+- seis arquivos CSV em data/generated;
+- validação aprovada;
+- relatórios e gráficos em reports;
+- previsão com MAE, RMSE e R².
+
+4. TESTAR O SUPABASE
+
+Crie uma cópia de .streamlit/secrets.toml.example chamada secrets.toml.
+Dentro dela, informe a DATABASE_URL fornecida pelo professor.
+Não mostre essa senha durante a apresentação e não envie secrets.toml.
+
+Inicie novamente:
+
+python -m streamlit run app.py
+
+No painel, escolha Fonte de dados = Supabase.
+Ative Atualização automática e mostre que o mecanismo é polling.
+
+5. ORDEM RECOMENDADA PARA APRESENTAR
+
+1) Abrir Apresentacao_Radar_Industrial_4_0_Final_Com_Nomes.pptx.
+2) Explicar problema, arquitetura, seis tabelas e validação.
+3) Demonstrar o dashboard em Base local.
+4) Mostrar Qualidade dos dados e Previsão de desgaste.
+5) Se a conexão estiver funcionando, trocar para Supabase e demonstrar polling.
+6) Encerrar com recomendações, limitações e prioridade da PRE-01.
+
+IMPORTANTE
+
+- O modo local está pronto e foi testado.
+- A demonstração ao vivo do Supabase depende da internet, da credencial e do banco do professor.
+- Leve a pasta em um pendrive e também mantenha uma cópia no computador.

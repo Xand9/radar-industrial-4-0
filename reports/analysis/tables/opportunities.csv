@@ -1,0 +1,9 @@
+type,subject,finding,recommended_action
+oportunidade,Produtividade,PRE-01 possui a maior produtividade: 168.3 aprovadas/h.,"Investigar setup, operação e práticas que possam ser replicadas nas outras máquinas."
+anomalia operacional,Qualidade,PRE-01 possui a maior rejeição: 5.53%.,"Revisar calibração, matéria-prima e parâmetros dos lotes dessa máquina."
+oportunidade,Turnos,O turno MANHA alcançou 123.9 aprovadas/h.,"Comparar equipe, abastecimento e setup com os demais turnos."
+oportunidade,Oferta e demanda,Componente Automotivo A tem o menor giro produção-vendas: 36.6%.,Reavaliar lotes e priorizar produtos com demanda proporcionalmente maior.
+oportunidade,Canal comercial,"DISTRIBUIDOR lidera o faturamento com R$ 5,052,552.40.",Preservar o canal líder e testar suas práticas nos demais canais.
+oportunidade,Região,"CENTRO-OESTE é a região de maior receita: R$ 4,056,377.52.",Priorizar cobertura comercial e disponibilidade dos produtos mais vendidos na região.
+anomalia operacional,Telemetria,PRE-01 tem a maior proporção de leituras em alerta: 4.04%.,Inspecionar vibração e temperatura antes de ampliar a carga do equipamento.
+risco,Manutenção,PRE-01/Rolamento principal possui 99.5% de desgaste.,Planejar inspeção e verificar disponibilidade da peça de reposição.

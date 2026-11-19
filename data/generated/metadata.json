@@ -1,0 +1,33 @@
+{
+  "generator": "gerar_base.py",
+  "version": 1,
+  "generated_at_utc": "2026-11-16T23:28:48.802102+00:00",
+  "parameters": {
+    "start": "2026-10-13T18:00:00+00:00",
+    "end": "2026-11-12T18:00:00+00:00",
+    "days": 30,
+    "machines": 4,
+    "seed": 42,
+    "telemetry_interval_minutes": 5,
+    "wear_interval_hours": 1,
+    "production_interval_hours": 1,
+    "sale_probability": 0.82,
+    "output_directory": "C:\\Users\\Xand\\Documents\\Codex\\2026-11-12\\preciso-da-sua-ajuda-para-fazer\\outputs\\painel_industria40_parte2\\data\\generated"
+  },
+  "volumes": {
+    "machines": 4,
+    "production_events": 2884,
+    "sales_orders": 2399,
+    "machine_telemetry": 34564,
+    "parts_wear": 12,
+    "wear_events": 8652
+  },
+  "files": [
+    "machines.csv",
+    "production_events.csv",
+    "sales_orders.csv",
+    "machine_telemetry.csv",
+    "parts_wear.csv",
+    "wear_events.csv"
+  ]
+}

@@ -1,0 +1,7 @@
+tabela,registros,colunas,linhas_duplicadas,ausencias_obrigatorias,ausencias_totais
+machines,4,9,0,0,0
+production_events,2884,15,0,0,0
+sales_orders,2399,12,0,0,0
+machine_telemetry,34564,9,0,0,0
+parts_wear,12,9,0,0,0
+wear_events,8652,9,0,0,0

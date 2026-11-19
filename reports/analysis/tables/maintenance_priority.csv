@@ -1,0 +1,13 @@
+machine_code,machine_name,component_code,component_name,wear_pct,warning_threshold_pct,critical_threshold_pct,estimated_remaining_hours,risk_level
+PRE-01,Prensa Hidráulica 01,ROLAMENTO,Rolamento principal,99.5,75.0,90.0,12.03,CRITICO
+CNC-01,Centro de Usinagem CNC 01,CORREIA,Correia de transmissão,73.81,75.0,90.0,600.49,NORMAL
+PRE-01,Prensa Hidráulica 01,CORREIA,Correia de transmissão,72.72,75.0,90.0,752.54,NORMAL
+MON-01,Linha de Montagem 01,ROLAMENTO,Rolamento principal,71.95,75.0,90.0,514.36,NORMAL
+PIN-01,Cabine de Pintura 01,ROLAMENTO,Rolamento principal,70.06,75.0,90.0,595.96,NORMAL
+PIN-01,Cabine de Pintura 01,CORREIA,Correia de transmissão,66.39,75.0,90.0,717.22,NORMAL
+MON-01,Linha de Montagem 01,MOTOR,Motor elétrico,65.2,75.0,90.0,844.31,NORMAL
+CNC-01,Centro de Usinagem CNC 01,ROLAMENTO,Rolamento principal,62.37,75.0,90.0,990.65,NORMAL
+PIN-01,Cabine de Pintura 01,MOTOR,Motor elétrico,59.53,75.0,90.0,958.48,NORMAL
+MON-01,Linha de Montagem 01,CORREIA,Correia de transmissão,55.13,75.0,90.0,966.06,NORMAL
+CNC-01,Centro de Usinagem CNC 01,MOTOR,Motor elétrico,53.19,75.0,90.0,897.39,NORMAL
+PRE-01,Prensa Hidráulica 01,MOTOR,Motor elétrico,48.32,75.0,90.0,1234.3,NORMAL
